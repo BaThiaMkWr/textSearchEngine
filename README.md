@@ -42,5 +42,7 @@ scala target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar <path to text
 Output:
 
 3 files read in directory <path text file>
+  
 ':quit' to quit
+
 search>
