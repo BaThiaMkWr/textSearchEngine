@@ -28,6 +28,7 @@ object textSearchEngine extends App {
       these ++ these.filter(_.isDirectory).flatMap(recursiveListFiles)
     }
     val files = recursiveListFiles(new File(path)).filter(_.isFile)
+
     println(s"${files.length} files read in directory $path")
 
     files
@@ -38,7 +39,6 @@ object textSearchEngine extends App {
     * @param docWordVec
     * @param searchWordVec
     * @return
-    * The Jaccard Similarity between two sets A, B is
     */
 
   def searchScore(docWordVec : List[String], searchWordVec : List[String]): Int = {
@@ -88,7 +88,7 @@ object textSearchEngine extends App {
     val topMatches = search(files, input, topNResults)
 
     if (topMatches.isEmpty)
-      println("no matches found")
+      println("No matches found")
     else {
       topMatches.foreach( result => println(result._1 + " : " + result._2 +"%"))
     }
