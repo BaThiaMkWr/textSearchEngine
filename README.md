@@ -14,35 +14,33 @@ $
 
 
 ## Ranking
-1. The rank score must be 100% if a file contains all the words
-2. It must be 0% if it contains none of the words
-3. It should be between 0 and 100 if it contains only some of the words ­ but the exact
+..* The rank score must be 100% if a file contains all the words
+..* It must be 0% if it contains none of the words
+..* It should be between 0 and 100 if it contains only some of the words ­ but the exact
 
 
 ## Requirement:
 sbt
 scala
 
-on the projet directory : 
-$ ls
-build.sbt	project		src		target		
+	
 
-## To compile the program
-$ sbt compile
+## Compile & Package 
+On the projet directory : 
+... $ ls
+... build.sbt	project		src		target	
 
-## Package the program
-$sbt package
+... $ sbt compile
+... $sbt package
 
-The jar file is available under 
-/target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar
+... The jar file is available under 
+... /target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar
 
 ## To run the program
-scala target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar <path to text file> 
+... scala target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar <path to text file> 
 
-Output:
+... Output:
 
-3 files read in directory <path text file>
-  
-':quit' to quit
-
-search>
+... files read in directory <path text file>
+... ':quit' to quit
+... search>
