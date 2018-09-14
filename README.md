@@ -1,16 +1,16 @@
 ## Purpose:
-Read all the text files in the given directory,
-building an in memory representation of the files and their contents,
-and then give a command prompt at which interactive searches can be performed.
+Read all the text files in the given directory,  
+building an in memory representation of the files and their contents,  
+and then give a command prompt at which interactive searches can be performed.  
 
 
-An example session might look like:
-$ scala test.SimpleSearch /foo/bar 14 files read in directory /foo/bar search>
-search> to be or not to be filename1 : 100%
-filename2 : 95% search>
-search> cats
-no matches found search> :quit
-$
+An example session might look like:  
+$ scala test.SimpleSearch /foo/bar 14 files read in directory /foo/bar search>  
+search> to be or not to be filename1 : 100%  
+filename2 : 95% search>  
+search> cats  
+no matches found search> :quit  
+$  
 
 
 ## Ranking
