@@ -34,10 +34,10 @@ $ sbt compile
 $sbt package   
 
 The jar file is available under    
-/target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar   
+/target/scala-2.12/textsearchengine_2.12-0.1.jar
 
 ## To run the program
-scala target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar <path to text file>   
+scala target/scala-2.12/textsearchengine_2.12-0.1.jar <path to text file>
 
 Output:  
 

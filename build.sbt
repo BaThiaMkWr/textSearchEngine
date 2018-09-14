@@ -1,4 +1,4 @@
-name := "SchibstedCodingHomeAssignment"
+name := "textSearchEngine"
 
 version := "0.1"
 
