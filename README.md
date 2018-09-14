@@ -27,14 +27,14 @@ scala
 
 ## Compile & Package 
 On the projet directory : 
-⋅ $ ls
-⋅ build.sbt	project		src		target	
+$ ls. 
+ build.sbt	project		src		target  
 
-⋅ $ sbt compile
-⋅ $sbt package
+⋅ $ sbt compile. 
+⋅ $sbt package. 
 
-⋅⋅⋅ The jar file is available under 
-⋅⋅⋅ /target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar
+⋅⋅⋅ The jar file is available under.    
+⋅⋅⋅ /target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar. 
 
 ## To run the program
 ⋅⋅⋅ scala target/scala-2.12/schibstedcodinghomeassignment_2.12-0.1.jar <path to text file> 
